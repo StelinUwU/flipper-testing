@@ -4,7 +4,7 @@ $savePath = "$env:temp\script.py"
 (New-Object System.Net.WebClient).DownloadFile($scriptUrl, $savePath)
 
 # Execute Python script
-& python $savePath
+& python3 $savePath
 
 # Delete the downloaded script
 Remove-Item $savePath
